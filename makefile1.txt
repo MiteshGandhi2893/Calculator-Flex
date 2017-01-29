@@ -1,0 +1,5 @@
+all:assign3Flex       
+
+assign3Flex:
+	flex calculatorF.l	
+	gcc lex.yy.c -o calc1
